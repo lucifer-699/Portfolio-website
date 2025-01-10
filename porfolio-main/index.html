@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-grid">
+
+        
+        <div class="nav-left">
+            <a href="#">Sishir Shrestha</a>
+        </div>
+
+        <div class="nav-center">
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="nkedin.com/in/sishir-shrestha-57a50b1b9 ">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:sishir@example.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Sishir 👋</h2>
+                <p>Welcome to my portfolio! I’m Sishir Shrestha, a backend developer, web designer, and data analyst, passionate about turning ideas into engaging, functional, and visually appealing experiences. With a strong background in MSSQL, SQL, and Java, I strive to craft designs that not only look great but also deliver results.</p>
+
+              
+            </div>
+
+            <div class="headshot">
+                <img src="sishir.png" alt="Sishir Shrestha">
+            </div>
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I specialize in creating seamless digital experiences through a combination of strong backend and relational database expertise. My skills include database design and implementation, front-end creation, and responsive design, alongside proficiency in tools like MSSQL, MySQL, Microsoft Visual Studio, and Report Builder.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="java.png" alt="Java logo">
+                    <span>Java</span>
+                </div>
+                <div class="cell">
+                    <img src="sql.png" alt="SQL logo">
+                    <span>SQL</span>
+                </div>
+                <div class="cell">
+                    <img src="javascript-logo.webp" alt="JavaScript logo">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="node-logo.webp" alt="Node.js logo">
+                    <span>Node.js</span>
+                </div>
+                <div class="cell">
+                    <img src="react-logo.webp" alt="React.js logo">
+                    <span>React.js</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+<section class="about-layout">
+    <div class="about-left">
+        <h2>About Me</h2>
+        <p>Hi, I'm Sishir Shrestha, a Data analyst and Backend Java developer with over 1.5 years of experice in MSSQL and entry level knowledge in Java programming with springboot framework !!
+        </p>
+        <a href="cv.pdf" download="Sishir_Shrestha_CV.pdf" class="download-cv">Download CV</a>
+    </div>
+    <div class="about-right">
+        <section id="about" class="about-section">
+       
+            
+            <div class="about-thumb">
+                <div class="row">
+                    <div class="col-lg-6 col-6 featured-border-bottom py-2">
+                        <strong class="featured-numbers">1.5+</strong>
+                        <p class="featured-text">Years of Experience</p>
+                    </div>
+                    <div class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
+                        <strong class="featured-numbers">2</strong>
+                        <p class="featured-text">Company affiliated </p>
+                    </div>
+                    <div class="col-lg-6 col-6 pt-4">
+                        <strong class="featured-numbers">20+</strong>
+                        <p class="featured-text">Projects Finished</p>
+                    </div>
+                    <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
+                        <strong class="featured-numbers">3+</strong>
+                        <p class="featured-text">Certification</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+
+        <!-- SECTION 4: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    I'm always excited to connect with fellow tech enthusiasts, potential collaborators, or anyone interested in my work. Whether you're looking for assistance with IT projects, curious about my skills, or want to discuss opportunities, feel free to reach out. I'm eager to engage with the tech community and continue growing in my field.
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
